@@ -68,12 +68,4 @@ COPY --from=build --chown=185:0 /app/target/quarkus-app/ .​
 
 ​
 
-# Expõe a porta​
-
-EXPOSE 8080​
-
-​
-
-# Comando para iniciar a aplicação​
-
-CMD ["java", "-jar", "quarkus-run.jar"]​
+# Expõe
